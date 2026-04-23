@@ -1,0 +1,17 @@
+uk\ac\westminster\w2115918\smartcampuscw\LinkedResourceNotFoundException.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorReading.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorResource.class
+uk\ac\westminster\w2115918\smartcampuscw\SmartCampusCW.class
+uk\ac\westminster\w2115918\smartcampuscw\RoomNotEmptyExceptionMapper.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorReadingResource.class
+uk\ac\westminster\w2115918\smartcampuscw\DiscoveryEnd.class
+uk\ac\westminster\w2115918\smartcampuscw\LinkedResourceNotFoundExceptionMapper.class
+uk\ac\westminster\w2115918\smartcampuscw\Sensor.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorUnavailableException.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorRoomResource.class
+uk\ac\westminster\w2115918\smartcampuscw\RoomNotEmptyException.class
+uk\ac\westminster\w2115918\smartcampuscw\GeneralExceptionMapper.class
+uk\ac\westminster\w2115918\smartcampuscw\LoggingFilter.class
+uk\ac\westminster\w2115918\smartcampuscw\Room.class
+uk\ac\westminster\w2115918\smartcampuscw\ApplicationConfiguration.class
+uk\ac\westminster\w2115918\smartcampuscw\SensorUnavailableExceptionMapper.class
