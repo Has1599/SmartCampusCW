@@ -14,7 +14,26 @@ You can confirm it is running by opening the following URL in your browser
 http://localhost:8080/SmartCampusCW/api/v1/rooms
 
 EXAMPLE CURL COMMANDS:
+Create a room
+curl -X POST http://localhost:8080/SmartCampusCW/api/v1/rooms \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Lab Alpha","capacity":30}'
 
+Get all rooms
+curl http://localhost:8080/SmartCampusCW/api/v1/rooms
+
+Create a sensor
+curl -X POST http://localhost:8080/SmartCampusCW/api/v1/sensors \
+  -H "Content-Type: application/json" \
+  -d '{"type":"CO2","status":"active","currentValue":400.0,"roomId":"your-room-id-here"}'
+
+Get all sensors filtered by type
+curl http://localhost:8080/SmartCampusCW/api/v1/sensors?type=CO2
+
+Add a reading to a sensor
+curl -X POST http://localhost:8080/SmartCampusCW/api/v1/sensors/your-sensor-id-here/readings \
+  -H "Content-Type: application/json" \
+  -d '{"value":412.5,"timestamp":"2025-01-01T10:00:00"}'
 
 QUESTIONS:
 Part 1
