@@ -14,6 +14,7 @@ You can confirm it is running by opening the following URL in your browser
 http://localhost:8080/SmartCampusCW/api/v1/rooms
 
 EXAMPLE CURL COMMANDS:
+
 Create a room
 
 curl -X POST http://localhost:8080/SmartCampusCW/api/v1/rooms \
