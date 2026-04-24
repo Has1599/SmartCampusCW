@@ -5,10 +5,10 @@ The Smart Campus API is a RESTful web service that contains three main resources
 This API also includes validation and error handling with custom exceptions to ensure that the code works even if problems occur. 
 
 HOW TO BUILD AND RUN:
-1.	Ensure you have the correct software required. I personally NetBeans for this along with Glassfish Server.
+1.	Ensure you have the correct software required. I personally used NetBeans for this along with ApacheTomcat Server.
 2.	Open the project in NetBeans
 3.	Clean and build the project
-4.	Set Glassfish as your run server
+4.	Set ApacheTomcat as your run server
 5.	Run the project
 You can confirm it is running by opening the following URL in your browser
 http://localhost:8080/SmartCampusCW/api/v1/rooms
